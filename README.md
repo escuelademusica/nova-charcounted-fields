@@ -2,6 +2,10 @@
 
 Text and textarea fields with a character counter for Laravel Nova.
 
+### Background
+
+This package is fork from the source `elevate-digital/nova-charcounted-fields` which was deleted from Github. We will try to maintain the compatibility with future releases of Laravel Nova.
+
 ### Installation
 
 You can require this package using composer:

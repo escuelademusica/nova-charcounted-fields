@@ -37,7 +37,7 @@ class TextareaCounted extends FieldCounted
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array_merge(parent::jsonSerialize(), [
             'rows' => $this->rows,
